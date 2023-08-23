@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Opcional: para que el contenedor ocupe toda la altura de la ventana */
+  background-color: #f0f0f0;
+}
+/* Cambia el color de fondo del div */
+
+
+.form {
+  margin-bottom: 1rem;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+/* Agrega estilos para los iconos */
+.material-icons {
+  font-family: 'Material Icons'; /* Asegúrate de que esta fuente esté disponible */
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+/* Estilos para el contenedor principal */
+
+
+.App button {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Estilos para el botón al pasar el mouse por encima */
+.App button:hover {
+  background-color: darkblue;
+}
+
+/* Fondo de la lista */
+/* Estilos para la lista de tareas */
+.task-list {
+  list-style: none;
+  padding: 0;
+  background-color: lemonchiffon; /* Cambia el color de fondo de la lista */
+}
+
+/* Estilos para los elementos de la lista */
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  margin-bottom: 0.5rem;
+  
+}
+
+.task-list li .material-icons {
+  margin-right: 0.5rem; /* Ajusta el margen según tus preferencias */
+}
