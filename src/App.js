@@ -24,8 +24,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Lista de Tareas</h1>
-      <div className="form">
+      <h2>ACTIVIDAD LISTA DE ACTIVIDAD</h2>
+       <div className="form">
         <input
           type="text"
           placeholder="Nueva tarea"
@@ -44,6 +44,7 @@ function App() {
           </li>
         ))}
       </ul>
+      <h2>FRANKLIN DORIA - IVÁN BENITEZ</h2>
     </div>
   );
 }
